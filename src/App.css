@@ -1,0 +1,29 @@
+
+
+.sticky-nav {
+     animation: sticky-nav 300ms;
+}
+    
+@keyframes sticky-nav {
+    0% {
+        transform: translateY(-6em)
+    }
+
+    100% {
+        transform: translateY(0)
+    }
+}
+.underline::after {
+  content: '';
+  border-radius: 20px;
+  display: block;
+  width: 20%;
+  height: 4px;
+  background-color:#FF8300; /* Adjust the color of the underline */
+  position: absolute;
+  bottom: 20%;
+  left: 40%;
+}
+.footerLink{
+    color: #FF8300 !important;
+}
